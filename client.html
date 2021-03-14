@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="container">
+    <div class="innerpage">
+        <form action="#" class="form" id="login">
+        <input type="text" class="form__name" id="name" placeholder="введите имя">
+        <button type="submit" class="form__name" id="loginButton">Login</button>
+        </form>
+    </div>
+    <div class="chatpage">
+      <div class="sidepanel">
+        <div class="user">
+          <img src="" alt="user photo" class="user__img" id="avatar">
+          <div class="user__nickname" id="user-name"></div>
+        </div>
+        <ul class="user-list">Все пользователи
+          
+        </ul>
+      </div>
+      <div class="chatpage__main">
+        <div class="chatpage__text">
+          <ul id="message-list">
+    
+          </ul>
+        </div>
+        <div class="chatpage__message">
+          <input type="text" id="message-input" class="message__input">
+          <a href="#" class="form__button" id="sendButton">Отправить</a>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+</div>
+</div>
+<script type="template" id="frame">
+    <div class="messageFrame">
+        <div class="messageFrame__ava">
+            <img src="./img/no-photo.png" alt="" class="messageFrame__img">
+        </div>
+        <div class="messageFrame__main">
+            <div class="messageFrame__name"></div>
+            <div class="messageFrame__text"></div>
+        </div>
+    </div>
+</script>
+<script src="client.js"></script>
+</body>
+</html>
